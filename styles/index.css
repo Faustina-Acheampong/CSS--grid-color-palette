@@ -26,9 +26,8 @@ main {
       "I I I I I I";
     width: 85%;  
     height: 90%;
-    box-sizing: border-box;
+    background-color: white;
     padding: 15px 15px 0 15px;
-    background-color:white;
 }
   
 .grid-A {  
@@ -41,6 +40,7 @@ main {
       "subgrid-A1"
       "subgrid-A2";
     grid-area: A; 
+    
 }
   
 .subgrid-A1 { 
@@ -56,6 +56,7 @@ main {
 .grid-B {
      grid-area: B; 
      background: #80B918;
+     
 }
   
 .grid-C { 
@@ -69,6 +70,7 @@ main {
       "subgrid-C2"
       "subgrid-C3";
     grid-area: C;
+   
 }
   
 .subgrid-C1 {
@@ -88,7 +90,7 @@ main {
   
 .grid-D { 
     grid-area: D; 
-    background: #55A630;
+    background: #55A630;  
 }
   
 .grid-E { 
@@ -121,5 +123,6 @@ main {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    
 }
   
